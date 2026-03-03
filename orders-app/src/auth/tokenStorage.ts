@@ -12,4 +12,4 @@ export async function getToken() {
 
 export async function removeToken() {
   await SecureStore.deleteItemAsync(TOKEN_KEY);
-}ro
+}
