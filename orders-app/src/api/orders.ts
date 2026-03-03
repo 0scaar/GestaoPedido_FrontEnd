@@ -2,8 +2,8 @@ import { api } from "./client";
 
 export type OrderDto = {
   orderId: string;
-  customerName?: string; // ideal: API devolve isso
-  customerId?: string;   // fallback se não tiver name
+  customerName?: string; 
+  customerId?: string;   
   totalAmount: number;
   status: string;
   requiresManualApproval: boolean;
